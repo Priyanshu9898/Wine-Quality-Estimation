@@ -1,8 +1,11 @@
+import HomePage from '@/components/HomePage'
 import React, { FC } from 'react'
 
 const page: FC = () => {
   return (
-    <div>page</div>
+    <>
+      <HomePage />
+    </>
   )
 }
 
